@@ -10,10 +10,52 @@ header{
     top: 0;
     left: 0;
     width: 100%;
-
 }
+
+.content, .content-title{
+    background-color: lightgray;
+    width: 100%;
+}
+
 header .content{
     width: 100%;
     height: 75px;
-    background-color: lightgray;
+}
+
+#about, #contact-us{
+    padding: 30px 0px;
+}
+
+.content-title{
+    height: 150px;
+}
+
+#jumbotron, #about{
+    background-color: greenyellow;
+}
+
+#jumbotron .content{
+    height: 350px;
+}
+
+.columns .content, #about .content, #contact-us .content{
+    height: 250px;
+}
+
+footer{
+    background-color: navy;
+    padding: 30px 0px 0px 0px;
+}
+
+footer .content{
+    height: 200px;
+}
+
+.bottom-bar{
+    background-color: rgb(15, 15, 91);
+    padding: 20px 0px;
+}
+
+.bottom-bar .content{
+    height: 100px;
 }
