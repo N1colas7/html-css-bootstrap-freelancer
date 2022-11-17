@@ -39,7 +39,7 @@ header .content{
 }
 
 #jumbotron, #about{
-    background-color: greenyellow;
+    background-color: rgba(26,188,156,255);
 }
 
 #jumbotron .content{
